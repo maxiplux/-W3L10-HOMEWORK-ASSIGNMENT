@@ -257,11 +257,11 @@ public class MyBST {
 		mybst.printTree();
 		
 		
-		System.out.print("\n Pre ordwer, Part A");
+		System.out.print("\n Part A  Pre ordwer");
 		mybst.preOrder();
-		System.out.print("\n  Post Order Order B");		
+		System.out.print("\n Part B Post Order");		
 		mybst.postOrder();
-		System.out.printf("\n   Part C , We will check if the mybst has -9999 or not and result ot it is %s", mybst.contains(-9999));
+		System.out.printf("\n Part C , We will check if the mybst has -9999 or not and result ot it is %s", mybst.contains(-9999));
 		
 		System.out.printf("\n Part D , We will check the root of mybst and the value is %s", mybst.getRoot());
 		
